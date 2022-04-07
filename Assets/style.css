@@ -1,0 +1,53 @@
+body {
+  background-color: rgb(209, 209, 206);
+}
+
+.col {
+  border: black solid 1px;
+  border-radius: 10px;
+}
+
+/* #mainContainer {
+} */
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 100px;
+  font-size: calc(35px + 2vw);
+  height: 10vw;
+}
+
+.row {
+  height: calc(50px + 2.5vw);
+  font-size: calc(12px + 1.5vw);
+}
+
+.saveDelete {
+  font-size: calc(12px + 1.5vw);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(46, 97, 155);
+}
+
+.time {
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+i {
+  margin: 1.8vw;
+}
+
+.fa-trash-can {
+  color: rgb(233, 77, 77);
+}
+
+.fa-arrow-down-to-arc {
+  color: greenyellow;
+}
