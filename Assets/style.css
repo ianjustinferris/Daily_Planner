@@ -2,7 +2,7 @@ body {
   background-color: rgb(209, 209, 206);
 }
 
-.col {
+.column {
   border: black solid 1px;
   border-radius: 10px;
 }
@@ -21,7 +21,7 @@ body {
 }
 
 .row {
-  height: calc(50px + 2.5vw);
+  min-height: 70px;
   font-size: calc(12px + 1.5vw);
 }
 
