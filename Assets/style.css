@@ -75,7 +75,7 @@ button {
 }
 .fa-arrow-down-to-arc {
   background-position: center;
-  transition: background 0.5s;
+  transition: background 1s;
   border-radius: 20px;
 }
 
@@ -88,4 +88,16 @@ button {
 
 .fa-trash-can:hover {
   font-size: 4vw;
+}
+
+.past {
+  background-color: grey;
+}
+
+.present {
+  background-color: rgb(214, 182, 77);
+}
+
+.future {
+  background-color: rgb(122, 206, 122);
 }

@@ -52,6 +52,101 @@
 
     var deleteBtn5 = document.getElementById('5delete')
 
+    var currentTime = new Date().getHours();
+
+    console.log("currentTime: " + currentTime)
+
+    console.log(typeof currentTime)
+
+    //Set color of TODO for Past, Present, or Future
+   if (currentTime > 9) {
+       $('#todo9').addClass('past')
+   } else if (currentTime >= 9 && currentTime < 10) {
+       $('#todo9').addClass('present')
+   } else if (currentTime < 9) {
+       $('#todo9').addClass('future')
+   }
+    
+    //Set color of TODO for Past, Present, or Future
+   if (currentTime > 10) {
+       $('#todo10').addClass('past')
+   } else if (currentTime >= 10 && currentTime < 11) {
+       $('#todo10').addClass('present')
+   } else if (currentTime < 10) {
+       $('#todo10').addClass('future')
+   }
+
+    //Set color of TODO for Past, Present, or Future
+   if (currentTime > 11) {
+       $('#todo11').addClass('past')
+   } else if (currentTime >= 11 && currentTime < 12) {
+       $('#todo11').addClass('present')
+   } else if (currentTime < 11) {
+       $('#todo11').addClass('future')
+   }
+
+    //Set color of TODO for Past, Present, or Future
+   if (currentTime > 12) {
+       $('#todo12').addClass('past')
+   } else if (currentTime >= 12 && currentTime < 13) {
+       $('#todo12').addClass('present')
+   } else if (currentTime < 12) {
+       $('#todo12').addClass('future')
+   }
+
+    //Set color of TODO for Past, Present, or Future
+   if (currentTime > 13) {
+       $('#todo1').addClass('past')
+   } else if (currentTime >= 13 && currentTime < 14) {
+       $('#todo1').addClass('present')
+   } else if (currentTime < 13) {
+       $('#todo1').addClass('future')
+   }
+
+    //Set color of TODO for Past, Present, or Future
+   if (currentTime > 14) {
+       $('#todo2').addClass('past')
+   } else if (currentTime >= 14 && currentTime < 15) {
+       $('#todo2').addClass('present')
+   } else if (currentTime < 14) {
+       $('#todo2').addClass('future')
+   }
+
+    //Set color of TODO for Past, Present, or Future
+   if (currentTime > 15) {
+       $('#todo3').addClass('past')
+   } else if (currentTime >= 15 && currentTime < 16) {
+       $('#todo3').addClass('present')
+   } else if (currentTime < 15) {
+       $('#todo3').addClass('future')
+   }
+
+    //Set color of TODO for Past, Present, or Future
+   if (currentTime > 16) {
+       $('#todo4').addClass('past')
+   } else if (currentTime >= 16 && currentTime < 17) {
+       $('#todo4').addClass('present')
+   } else if (currentTime < 16) {
+       $('#todo4').addClass('future')
+   }
+
+    //Set color of TODO for Past, Present, or Future
+   if (currentTime > 17) {
+       $('#todo5').addClass('past')
+   } else if (currentTime >= 17 && currentTime < 18) {
+       $('#todo5').addClass('present')
+   } else if (currentTime < 17) {
+       $('#todo5').addClass('future')
+   }
+
+    //Set Time/Date
+
+     function getTime() {
+        $("#weekDay").html(moment().format("h:mm dddd"));
+        }
+        
+        setInterval(getTime, 1000);
+
 
 
     //Functions to save/delete 9AM TODO 
@@ -273,21 +368,4 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-      function getTime() {
-        $("#weekDay").html(moment().format("h:mm dddd"));
-        }
-        
-        setInterval(getTime, 1000);
+     
