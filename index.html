@@ -19,7 +19,7 @@
   </head>
   <body>
     <header class="header container-md h-20">DAILY SCHEDULE</header>
-    <div class="container-md" id="weekDay">test</div>
+    <div class="container-md" id="weekDay"></div>
     <div class="container-md h-100" id="mainContainer">
       <section class="row" id="row-1">
         <section class="column col-2 time">9 AM</section>
@@ -100,9 +100,15 @@
       crossorigin="anonymous"
     ></script>
     <script src="./Assets/script.js"></script>
-    <script src="moment.js"></script>
+    <script src="./Assets/moment.js"></script>
     <script>
-      moment().format();
+      const m = moment();
+      var weekDayEl = document.getElementById("weekDay");
+      function getTime() {
+        weekDayEl.innerHTML = m.format("LT dddd");
+      }
+      getTime();
+      setInterval(getTime, 1000);
     </script>
   </body>
 </html>

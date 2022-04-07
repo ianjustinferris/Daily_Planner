@@ -51,3 +51,10 @@ i {
 .fa-arrow-down-to-arc {
   color: greenyellow;
 }
+
+#weekDay {
+  font-size: calc(12px + 2vw);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
