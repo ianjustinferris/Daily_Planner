@@ -11,6 +11,7 @@ body {
 } */
 
 .header {
+  letter-spacing: 0.1rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -57,4 +58,34 @@ i {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+button {
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+}
+
+.fa-arrow-down-to-arc:hover {
+  font-size: 4vw;
+}
+.fa-arrow-down-to-arc {
+  background-position: center;
+  transition: background 0.5s;
+  border-radius: 20px;
+}
+
+.fa-arrow-down-to-arc:active {
+  background-color: greenyellow;
+  background-size: 100%;
+  transition: background 0s;
+  border-radius: 20px;
+}
+
+.fa-trash-can:hover {
+  font-size: 4vw;
 }
