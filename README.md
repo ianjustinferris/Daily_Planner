@@ -6,6 +6,8 @@ A planner that allows the user to schedule activities for each hour of the day. 
 
 https://ianjustinferris.github.io/Daily_Planner/
 
-## Screenshot
+## Screenshots
 
 ![Daily_Planner](./Assets/Daily_Planner.png)
+
+![Daily_Planner_Mobile](./Assets/Daily_Planner_Mobile.png)
