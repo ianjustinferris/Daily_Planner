@@ -142,7 +142,7 @@
     //Set Time/Date
 
      function getTime() {
-        $("#weekDay").html(moment().format("h:mm dddd"));
+        $("#weekDay").html(moment().format("h:mm A dddd"));
         }
         
         setInterval(getTime, 1000);
